@@ -137,5 +137,14 @@ footer {
 	background: yellow;
 }
 
+@media screen and (min-width: 400px) {
+	nav ul li { 		
+	flex: none;
+	}
+	nav ul {
+	justify-content: center;
+	}
+}
+
 
 
